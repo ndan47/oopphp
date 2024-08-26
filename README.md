@@ -81,6 +81,7 @@ $mahasiswa = new Mahasiswa ("Muhammad Bondan Rahardinata", "230202018", "Kompute
 echo $mahasiswa->tampilkanData(); // output
 ?>
 ```
+![class-object](JOBSHEET/assets/encapsulation.png)
 ## 3. Inheritance
 ```php
 <?php
@@ -123,6 +124,7 @@ echo $dosen->getNama(); // output
 echo $dosen->getMatakuliah(); // output
 ?>
 ```
+![class-object](JOBSHEET/assets/inheritance.png)
 
 ## 4. Polymorphhism
 ```php
@@ -174,6 +176,7 @@ echo $aksesDosen->aksesFitur();
 echo $aksesMhs->aksesFitur();
 ?>
 ```
+![class-object](JOBSHEET/assets/polymorphism.png)
 
 ## 5. Abstraction
 ```php
@@ -220,6 +223,4 @@ echo $aksesDosen->aksesFitur();
 echo $aksesMhs->aksesFitur();
 ?>
 ```
-
-
-[MIT](https://choosealicense.com/licenses/mit/)
+![class-object](JOBSHEET/assets/abstraction.png)
